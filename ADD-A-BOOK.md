@@ -87,11 +87,11 @@ model as the website, so you can keep both in sync easily.
   "id": "atomic-habits",                 // UNIQUE, lowercase, dashes, no spaces
   "author": "James Clear",               // shared across both languages
   "cover": { "c1": "#3a6ea5", "c2": "#1b3a5c" },  // gradient: top color, bottom color
-  "image": "https://.../cover.jpg",      // OPTIONAL real cover photo (falls back to gradient)
   "languages": {
     "en": {
       "title": "Atomic Habits",
       "blurb": "Tiny changes, remarkable results.",
+      "image": "https://.../atomic-habits-en.jpg",
       "chapters": [
         {
           "title": "Chapter 1 — The Surprising Power of Small Habits",
@@ -102,6 +102,7 @@ model as the website, so you can keep both in sync easily.
     "hi": {
       "title": "एटॉमिक हैबिट्स",
       "blurb": "छोटे बदलाव, असाधारण परिणाम।",
+      "image": "https://.../atomic-habits-hi.jpg",
       "chapters": [
         {
           "title": "अध्याय 1 — छोटी आदतों की ताकत",
@@ -118,7 +119,9 @@ model as the website, so you can keep both in sync easily.
 - **`id` must be unique** and never change once readers start a book — progress
   is saved against it. Use lowercase with dashes: `"rich-dad-poor-dad"`, not
   `"Rich Dad"`.
-- **`author`, `cover`, and `image` are shared** by both languages.
+- **`author` and `cover` are shared.** Put a separate optional `image` inside
+  each language (`languages.en.image` and `languages.hi.image`). A legacy
+  top-level `image` is still accepted as a fallback.
 - **`languages` needs at least one of `en` / `hi`.** Include only `en` to make
   the book English-only; the language toggle simply won't offer Hindi for it.
   (The app does **not** translate for you — you supply the text for each
@@ -135,9 +138,12 @@ model as the website, so you can keep both in sync easily.
 
 - **No image?** Leave out `"image"`. The app draws a nice gradient cover using
   `cover.c1` (top) and `cover.c2` (bottom) with the title on it.
-- **Have an image?** Set `"image"` to a full `https://` URL. It loads over the
+- **Have an image?** Set `"image"` inside each language to a full `https://`
+  URL. English and Hindi can therefore use different covers. It loads over the
   network (Coil) and automatically falls back to the gradient if the image is
   missing or the device is offline.
+- GitHub page links containing `/blob/` are converted to raw file URLs
+  automatically, though copying the file's **Raw** URL is still recommended.
 - Bundled local images are also possible: drop a file in
   `app/src/main/assets/covers/` and reference it — ask if you want that wired up
   (it needs a one-line loader tweak).
