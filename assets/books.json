@@ -24,29 +24,7 @@
             },
             {
               "title": "Summary Content List",
-              "chapters": [
-                {
-                  "title": "Chapter 1 — Two Dads with Different Views on Money"
-                },
-                {
-                  "title": "Chapter 2 — Understanding Financial Literacy Basics for Teens"
-                },
-                {
-                  "title": "Chapter 3 — The Importance of Starting to Invest Early and Wisely"
-                },
-                {
-                  "title": "Chapter 4 — Building a Strong Financial Foundation Through Healthy Money Habits"
-                },
-                {
-                  "title": "Chapter 5 — Different Paths to Financial Success: Education and Career Choices"
-                },
-                {
-                  "title": "Chapter 6 — Parents as Financial Role Models and Educators"
-                },
-                {
-                  "title": "Chapter 7 — Taking Control of Your Financial Future Through Planning and Goal Setting"
-                }
-              ]
+              "text": "Chapter 1 : Two Dads with Different Views on Money \n\nChapter 2 : Understanding the Basics of Financial Literacy for Teens\n\nChapter 3 : The Importance of Investing Early and Wisely\n\nChapter 4 : Building a Strong Financial Foundation with Healthy Money Habits\n\nChapter 5 : The Different Paths to Financial Success Education and Career Choices\n\nChapter 6 : Parents as Financial Role Models and Educators\n\nChapter 7 : Taking Control of Your Financial Future Planning and Goal Setting\n\n"
             },
             {
               "title": "Chapter 1 — Two Dads with Different Views on Money",
