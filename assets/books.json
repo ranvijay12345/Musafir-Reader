@@ -8,12 +8,11 @@
         "c1": "#2f6f4f",
         "c2": "#0f3d2b"
       },
-      "image": "https://github.com/ranvijay12345/Musafir-Reader/blob/main/assets/covers/rich-dad-english.png"
       "languages": {
         "en": {
           "title": "Rich Dad Poor Dad",
           "blurb": "What the wealthy teach their kids about money that the poor and middle class do not.",
-          "image": "https://github.com/ranvijay12345/Musafir-Reader/blob/main/assets/covers/rich-dad-english.png"
+          "image": "https://github.com/ranvijay12345/Musafir-Reader/blob/main/assets/covers/rich-dad-english.png",
           "chapters": [
             {
               "title": "Chapter 1 — Two Fathers",
@@ -28,7 +27,7 @@
         "hi": {
           "title": "रिच डैड पुअर डैड",
           "blurb": "अमीर लोग अपने बच्चों को पैसे के बारे में जो सिखाते हैं, वह गरीब और मध्यम वर्ग नहीं सिखाते।",
-          "image": "https://github.com/ranvijay12345/Musafir-Reader/blob/main/assets/covers/rich-dad-hindi.png"
+          "image": "https://github.com/ranvijay12345/Musafir-Reader/blob/main/assets/covers/rich-dad-hindi.png",
           "chapters": [
             {
               "title": "अध्याय 1 — दो पिता",
@@ -116,6 +115,7 @@
         "hi": {
           "title": "गुनाहों का देवता",
           "blurb": "इलाहाबाद की पृष्ठभूमि पर चंदर और सुधा की अमर, कोमल प्रेमकथा।",
+          "image": "https://github.com/ranvijay12345/Musafir-Reader/blob/main/assets/covers/gonaho-ka-devta-hindi.png",
           "chapters": [
             {
               "title": "खंड एक",
